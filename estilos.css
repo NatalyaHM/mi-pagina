@@ -1,0 +1,739 @@
+
+/* estilos generales */
+html body {
+    background-image: url("images/fondo_postres.png");
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 600px;
+}
+header,
+main,
+section,
+footer {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* cabeza */
+
+header {
+    height: 200px;
+    background-image: url("images/bann.jpg");
+    border-radius: 9px;
+
+    padding-top: 20px;
+
+    box-sizing: border-box;
+
+}
+
+#marca {
+    width: 310px;
+    height: 170px;
+    
+    margin: 10px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+/* SOLO afecta al logo del header */
+header img {
+    border-radius: 60px;
+    margin: -200px;
+    padding-top: -50px;
+    float: left;
+    margin-top: -229px;
+}
+
+
+/* fondo de los botones, rosa*/
+
+
+#botonera {
+    width: 400px;
+    min-height: 50px;
+
+    
+
+    float: right;
+    margin-top: -60px;
+    margin-right: 30px;
+
+    padding: 5px;
+    box-sizing: border-box;
+}
+/*lista de los botones*/
+#botonera ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    list-style-type: none;
+
+    margin: 0;
+    padding: 0;
+
+    gap: 5px;
+}
+/* Cada elemento */
+
+#botonera ul li {
+    margin: 0;
+    padding: 0;
+}
+
+ /*botones color celestes*/
+
+#botonera ul li a {
+    display: block;
+    padding: 10px 20px;
+    background-color: lightskyblue;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin: 0;
+}
+/*efecto que hace que al pasar el cursor por encima del btón*/
+#botonera ul li a:hover {
+    background-color: palevioletred;
+    color: white;
+}
+
+
+/* inicio */
+
+section#inicio {
+    height: 400px;
+    background-image: url("images/frutilla_chocolate.png");
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Imágenes de los postres */
+
+.postres {
+    margin: 10px;
+}
+
+.postres img {
+    width: 300px;
+    height: 260px;
+    border-radius: 10px;
+
+    margin: 0;
+    padding: 0;
+    float: none;
+}
+
+
+/* Texto de inicio */
+
+#ini {
+    width: 790px;
+    height: 50px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+
+    margin: 200px;
+    padding-top: 90px;
+    float: left;
+    margin-top: -200px;
+}
+
+#ini p {
+    text-align: center;
+    font-size: 20px;
+    margin-top: -40px;
+    color: darkslategray;
+}
+
+
+/* página: sobre mí */
+
+#sobre-mi {
+    width: 90%;
+    min-height: 500px;
+    margin: 20px auto;
+
+    background-color: lightblue;
+    border-radius: 5px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+#sobre-mi article {
+    width: 70%;
+    margin: auto;
+
+    background-color: antiquewhite;
+    border-radius: 8px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+#sobre-mi article h1 {
+    text-align: center;
+    color: darkslategray;
+}
+
+#sobre-mi article p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: darkslategray;
+}
+
+#sobre-mi aside {
+    width: 70%;
+    margin: 25px auto;
+    padding: 20px;
+
+    background-color: lightgoldenrodyellow;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+#sobre-mi aside h2 {
+    text-align: center;
+    color: darkslategray;
+}
+
+#sobre-mi aside ul {
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+
+/* página:  contacto*/
+
+#contacto {
+    min-height: 600px;
+    background-color: lightblue;
+    border-radius: 5px;
+
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.contacto-contenido {
+    width: 80%;
+    margin: auto;
+
+    background-color: antiquewhite;
+    border-radius: 8px;
+
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.contacto-contenido h1 {
+    text-align: center;
+    color: darkslategray;
+}
+
+.contacto-contenido h2 {
+    color: darkslategray;
+}
+
+.contacto-contenido p {
+    font-size: 18px;
+    color: darkslategray;
+}
+
+
+/* Información de contacto */
+
+.info-contacto {
+    list-style: none;
+    padding: 0;
+}
+
+.info-contacto li {
+    margin: 15px 0;
+    font-size: 18px;
+    color: darkslategray;
+}
+
+.info-contacto a {
+    color: darkslategray;
+    text-decoration: none;
+}
+
+.info-contacto a:hover {
+    color: palevioletred;
+}
+
+
+/* el formulario */
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+
+    font-weight: bold;
+    color: darkslategray;
+}
+
+form input {
+    width: 60%;
+    padding: 10px;
+
+    border: 1px solid lightpink;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    width: 60%;
+    height: 120px;
+
+    padding: 10px;
+
+    border: 1px solid lightpink;
+    border-radius: 5px;
+
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+form button {
+    display: block;
+
+    margin-top: 20px;
+
+    background-color: lightskyblue;
+    color: black;
+
+    border: none;
+    padding: 10px 25px;
+
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: palevioletred;
+    color: white;
+}
+
+/* =========================
+   POSTRES DE FRUTILLA
+   ========================= */
+
+#postres-frutilla {
+    width: 90%;
+    min-height: 600px;
+
+    margin: 20px auto;
+
+    background-color: lightpink;
+    border-radius: 5px;
+
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+
+/* Título */
+
+#postres-frutilla h1 {
+    text-align: center;
+
+    color: darkslategray;
+
+    margin-bottom: 10px;
+}
+
+
+/* Descripción */
+
+.descripcion-postres {
+    text-align: center;
+
+    font-size: 18px;
+
+    color: darkslategray;
+
+    margin-bottom: 30px;
+}
+
+
+/* Galería */
+
+.galeria-postres {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: stretch;
+
+    gap: 25px;
+
+    flex-wrap: wrap;
+}
+
+
+/* Tarjetas */
+
+.tarjeta-postre {
+    width: 220px;
+
+    background-color: antiquewhite;
+
+    border-radius: 10px;
+
+    padding: 15px;
+
+    box-sizing: border-box;
+
+    text-align: center;
+}
+
+
+/* Imágenes */
+
+.tarjeta-postre img {
+    width: 190px;
+    height: 220px;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+}
+
+
+/* Títulos de las tarjetas */
+
+.tarjeta-postre h2 {
+    color: darkslategray;
+
+    font-size: 20px;
+}
+
+
+/* Texto de las tarjetas */
+
+.tarjeta-postre p {
+    color: darkslategray;
+
+    font-size: 16px;
+
+    line-height: 1.5;
+}
+
+/* =========================
+   POSTRES DE CHOCOLATE
+   ========================= */
+
+#postres-chocolate {
+    width: 90%;
+    min-height: 600px;
+
+    margin: 20px auto;
+
+    background-color: burlywood;
+    border-radius: 5px;
+
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+
+/* Título */
+
+#postres-chocolate h1 {
+    text-align: center;
+
+    color: darkslategray;
+
+    margin-bottom: 10px;
+}
+
+
+/* Descripción */
+
+#postres-chocolate .descripcion-postres {
+    text-align: center;
+
+    font-size: 18px;
+
+    color: darkslategray;
+
+    margin-bottom: 30px;
+}
+
+
+/* Galería */
+
+#postres-chocolate .galeria-postres {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: stretch;
+
+    gap: 25px;
+
+    flex-wrap: wrap;
+}
+
+
+/* Tarjetas */
+
+#postres-chocolate .tarjeta-postre {
+    width: 220px;
+
+    background-color: rosybrown;
+
+    border-radius: 10px;
+
+    padding: 15px;
+
+    box-sizing: border-box;
+
+    text-align: center;
+}
+
+
+/* Imágenes */
+
+#postres-chocolate .tarjeta-postre img {
+    width: 190px;
+    height: 220px;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+}
+
+
+/* Títulos */
+
+#postres-chocolate .tarjeta-postre h2 {
+    color: darkslategray;
+
+    font-size: 20px;
+}
+
+
+/* Texto */
+
+#postres-chocolate .tarjeta-postre p {
+    color: darkslategray;
+
+    font-size: 16px;
+
+    line-height: 1.5;
+}
+
+
+/* =========================
+   pies, final
+   ========================= */
+
+footer {
+    height: 60px;
+
+    background-image: url("images/frutilla_chocolate.png");
+    border-radius: 5px;
+
+    text-align: center;
+    padding-top: 20px;
+
+    box-sizing: border-box;
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Mejorar la separación en la página de inicio */
+
+section#inicio {
+    min-height: 100px;
+    height: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+/* Texto de bienvenida */
+
+#ini {
+    width: 80%;
+    min-height: 100px;
+    height: auto;
+
+    margin: 20px auto;
+    padding: 20px;
+
+    background-color: antiquewhite;
+    border-radius: 5px;
+
+    box-sizing: border-box;
+    float: none;
+}
+
+#ini p {
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5;
+
+    margin: 0;
+    padding: 0;
+
+    color: darkslategray;
+}
+
+
+/* Botón único debajo de todas las tarjetaas */
+
+.boton-receta-frutilla{
+    display: block;
+    width: fit-content;
+
+    margin: 25px auto 10px;
+    padding: 12px 30px;
+
+    background-color: lightskyblue;
+    color: darkslategray;
+
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+
+    border-radius: 5px;
+}
+
+.boton-receta-frutilla:hover {
+    background-color: palevioletred;
+    color: white;
+}
+
+/* BOTÓN RECETAS CHOCOLATE */
+.boton-receta-chocolate {
+    display: block;       /* Hace que cada botón ocupe su propia línea */
+    width: fit-content;   /* Ajusta el ancho al texto */
+    margin: 15px auto;    /* Los centra horizontalmente y les da separación arriba/abajo */
+    padding: 12px 30px;
+
+    background-color: lightskyblue;
+    color: darkslategray;
+
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+
+    border-radius: 5px;
+}
+
+.boton-receta-chocolate:hover {
+    background-color: palevioletred;
+    color: white;
+}
+
+.boton-receta{
+    display: block;
+    width: fit-content;
+
+    margin: 25px auto 10px;
+    padding: 12px 30px;
+
+    background-color: lightskyblue;
+    color: darkslategray;
+
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+
+    border-radius: 5px;
+}
+
+.boton-receta:hover {
+    background-color: palevioletred;
+    color: white;
+}
+
+/* Imágenes de las recetas de frutilla y chocolate */
+
+.receta img,
+.receta-chocli img {
+    display: block;
+    width: 100%;
+    max-width: 260px;
+    height: 220px;
+    object-fit: contain;
+    object-position: center;
+    margin: 15px;
+    border-radius: 8px;
+}
+
+/* Título de la página de recetas */
+
+#recetas-frutilla > h1 {
+    text-align: center;
+    color: darkslategray;
+    margin-bottom: 25px;
+}
+
+/* Lectura cómoda */
+
+.receta ul,
+.receta p {
+    line-height: 1.5;
+}
+
+/*página recetas chocolate*/
+
+#recetas-chocolate > h1 {
+    text-align: center;
+    color: darkslategray;
+    margin-bottom: 25px;
+}
+
+
+ /*FONDO DE LAS RECETAS*/
+#fondo-chocolate {
+    width: 80%;
+    min-height: 100px;
+    height: auto;
+
+    margin: 20px auto;
+    padding: 20px;
+
+    background-color: antiquewhite;
+    border-radius: 5px;
+
+    box-sizing: border-box;
+    float: none;
+}
+#fondo-frutilla {
+    width: 80%;
+    min-height: 100px;
+    height: auto;
+
+    margin: 20px auto;
+    padding: 20px;
+
+    background-color: antiquewhite;
+    border-radius: 5px;
+
+    box-sizing: border-box;
+    float: none;
+}
+

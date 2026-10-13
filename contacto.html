@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Contacto | BoxModel</title>
+
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+
+    <!-- Iconos -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div id="marca"></div>
+
+        <img src="images/logobg.png"
+             alt="Logo de BoxModel"
+             style="width: 700px; height: 240px;">
+
+        <nav id="botonera">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobre_mi.html">Sobre mí</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <section id="contacto">
+
+            <article class="contacto-contenido">
+
+                <h1>
+                    Contacto
+                    <i class="fas fa-comment-dots"></i>
+                </h1>
+
+                <p>
+                    ¿Tenés alguna pregunta o querés compartir una idea
+                    sobre nuestros deliciosos postres?
+                </p>
+
+                <p>
+                    ¡Podés comunicarte con nosotros!
+                </p>
+
+
+                <ul class="info-contacto">
+
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:boxmodel@gmail.com">
+                            boxmodel@gmail.com
+                        </a>
+                    </li>
+
+                    <li>
+                        <i class="fab fa-instagram"></i>
+                        <a href="#">
+                            @boxmodel
+                        </a>
+                    </li>
+
+                    <li>
+                        <i class="fas fa-phone"></i>
+                        +54 9 1234 5678
+                    </li>
+
+                </ul>
+
+
+                <h2>¡Enviá tu mensaje!</h2>
+
+                <form action="#" method="post">
+
+                    <label for="nombre">
+                        Tu nombre completo:
+                    </label>
+
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        required>
+
+
+                    <label for="email">
+                        Correo electrónico:
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required>
+
+
+                    <label for="mensaje">
+                        Tu mensaje:
+                    </label>
+
+                    <textarea
+                        id="mensaje"
+                        name="mensaje"
+                        required>
+                    </textarea>
+
+
+                    <button type="submit">
+                        Enviar
+                    </button>
+
+                </form>
+
+            </article>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>&copy; BoxModel - Postres de frutilla y chocolate</p>
+    </footer>
+
+</body>
+</html>
+
